@@ -1,0 +1,31 @@
+{
+  "name": "@alan404/discordjsx",
+  "version": "0.1.0",
+  "description": "Use React JSX-based discord messages in your discord.js project",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "tsx": "tsx"
+  },
+  "keywords": [
+    "discord.js",
+    "react",
+    "jsx"
+  ],
+  "author": "alan404",
+  "license": "LICENSE",
+  "dependencies": {
+    "@types/react": "^18.2.48",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.2",
+    "react": "^18.2.0",
+    "react-reconciler": "^0.29.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "@types/react-reconciler": "^0.28.8",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.3"
+  }
+}
